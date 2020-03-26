@@ -9,16 +9,22 @@
 
         <!-- style sheets go here -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
 
         <!-- javascripts go here for the mean time // remember to shift below body -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/general.js"></script>
+
 
     </head>
     <body>
         <section class="page-wrapper">
 
             <!-- header beigns here -->
-            <header class="main-header py-3">
+            <header class="main-header">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-2 logo">
@@ -162,16 +168,118 @@
                                         officia deserunt mollit anim id est laborum </p>
                     </div>
                     <div class="row">
-                        <ul class="col-12 port-nav d-flex justify-content-center mb-5">
+                        <ul class="col-12 gallery-nav d-flex justify-content-center mb-5">
                           <li data-filter="*" class="filter-active mx-3">All</li>
-                          <li data-filter=".filter-app " class="mx-3">App</li>
-                          <li data-filter=".filter-card " class="mx-3">Card</li>
-                          <li data-filter=".filter-web " class="mx-3">Web</li>
+                          <li data-filter=".filter-one " class="mx-3">One</li>
+                          <li data-filter=".filter-two " class="mx-3">Two</li>
+                          <li data-filter=".filter-three " class="mx-3">Three</li>
                         </ul>
-                      </div>
+                    </div>
+
+                    <div class="row gallery-container">
+
+                        <div class="port-item filter-one mb-4 col-lg-4 col-md-6 ">
+                            <img src="assets/images/app1.jpg" alt="" />
+                        </div>
+                        <div class="port-item filter-two mb-4 col-lg-4 col-md-6 ">
+                            <img src="assets/images/web1.jpg" alt="" />
+                        </div>
+                        <div class="port-item filter-one mb-4 col-lg-4 col-md-6 ">
+                            <img src="assets/images/app2.jpg" alt="" />
+                        </div>
+                        <div class="port-item filter-three mb-4 col-lg-4 col-md-6 ">
+                            <img src="assets/images/card1.jpg" alt="" />
+                        </div>
+                        <div class="port-item filter-two mb-4 col-lg-4 col-md-6 ">
+                            <img src="assets/images/web2.jpg" alt="" />
+                        </div>
+                        <div class="port-item filter-three mb-4 col-lg-4 col-md-6 ">
+                            <img src="assets/images/card2.jpg" alt="" />
+                        </div>
+                        <div class="port-item filter-two mb-4 col-lg-4 col-md-6 ">
+                            <img src="assets/images/web3.jpg" alt="" />
+                        </div>
+                        <div class="port-item filter-three mb-4 col-lg-4 col-md-6 ">
+                            <img src="assets/images/card3.jpg" alt="" />
+                        </div>
+                        <div class="port-item filter-one mb-4 col-lg-4 col-md-6 ">
+                            <img src="assets/images/app3.jpg" alt="" />
+                        </div>
+
+                    </div>
                 </div>
             </section>
             <!-- gallery ends here -->
+
+            <!-- testimonials start here -->
+            <section class="testimonials">
+                <div class="container">
+                    <div class="section-heading d-flex flex-column text-center mb-3">
+                        <h2 class="mb-2 font-weight-bold">Testimonials</h2>
+                        <p class="mb-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                                        officia deserunt mollit anim id est laborum </p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-8">
+                            <div class="owl-carousel t-slider">
+
+                                <div class="item d-flex justify-content-between align-items-center">
+                                    <figure></figure>
+                                    <div class="testimonial-text d-flex flex-column">
+                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
+                                       praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
+                                       excepturi sint occaecati cupiditate non provident. </p>
+                                       <i>Sankshit Pandoh</i>
+                                       <i>Developer</i>
+                                    </div>
+                                </div>
+                                <div class="item d-flex justify-content-between align-items-center">
+                                    <figure></figure>
+                                    <div class="testimonial-text d-flex flex-column">
+                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
+                                       praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
+                                       excepturi sint occaecati cupiditate non provident. </p>
+                                       <i>Sankshit Pandoh</i>
+                                       <i>Developer</i>
+                                    </div>
+                                </div>
+                                <div class="item d-flex justify-content-between align-items-center">
+                                    <figure></figure>
+                                    <div class="testimonial-text d-flex flex-column">
+                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
+                                       praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
+                                       excepturi sint occaecati cupiditate non provident. </p>
+                                       <i>Sankshit Pandoh</i>
+                                       <i>Developer</i>
+                                    </div>
+                                </div>
+                                <div class="item d-flex justify-content-between align-items-center">
+                                    <figure></figure>
+                                    <div class="testimonial-text d-flex flex-column">
+                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
+                                       praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
+                                       excepturi sint occaecati cupiditate non provident. </p>
+                                       <i>Sankshit Pandoh</i>
+                                       <i>Developer</i>
+                                    </div>
+                                </div>
+                                <div class="item d-flex justify-content-between align-items-center">
+                                    <figure></figure>
+                                    <div class="testimonial-text d-flex flex-column">
+                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
+                                       praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
+                                       excepturi sint occaecati cupiditate non provident. </p>
+                                       <i>Sankshit Pandoh</i>
+                                       <i>Developer</i>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- testimonials end here -->
         </section>
     </body>
 </html>
