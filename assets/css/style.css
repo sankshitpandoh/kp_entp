@@ -1,0 +1,88 @@
+/* reset css begins here */
+*{ box-sizing:border-box;}
+body{ padding:0; margin:0; scroll-behavior:smooth; color: white}
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0}
+figure{ padding:0; margin:0; line-height:0;}
+img{ max-width:100%; max-height:100%}
+ul,li{ text-decoration:none; display:inline; margin:0; padding:0;}
+a{ text-decoration:none; color:inherit; transition: all 0.5s;}
+a:hover{ text-decoration:none;}
+p{ margin:0; padding:0}
+/* reset css ends here */
+
+/* golbal css starts here */
+.section-heading{
+    color: rgba(0, 0, 96, 1);
+}
+/* global css ends here */
+/* header starts here */
+.main-header{
+    background-color: rgb(255, 0, 0,0.5);
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; */
+}
+.logo{
+    font-size: 40px;
+}
+/* header ends here */
+
+/* hero banner starts here */
+.hero-banner{
+    background: skyblue url("../images/hero-banner.jpg") center no-repeat;
+    padding: 280px 0;
+    margin-top: -92px;
+}
+/* hero banner ends here */
+/* about us section starts here */
+.about-us{
+    padding: 60px 0;
+    color: black;
+
+}
+.about-us .about-img figure{
+    position: relative;
+}
+.about-us .about-img figure:after{
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: -35px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: grey;
+}
+.about-us .about-img figure:before{
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    right: -35px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: grey;
+}
+.about-us .about-img figure img{
+    border: 3px solid rgb(241, 241, 241);
+    width: 100%;
+    transition: all 0.5s;
+}
+.about-us .about-img figure img:hover{
+    transform: scale(1.05);
+}
+.about-us .about-text p{
+    margin-bottom: 20px;
+}
+/* about us section ends here */
+
+/* services start here */
+.services{
+    background-color: pink;
+    padding: 60px 0;
+}
+.services .single-service{
+    background-color: red;
+}
+/* services end here */
